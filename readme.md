@@ -1,4 +1,4 @@
-    # Vercel Clone
+# Vercel Clone
 
 A Vercel clone project that provides deployment management, real-time updates, and scalable infrastructure using AWS, Docker, Redis, and S3.
 
