@@ -11,7 +11,6 @@ A Vercel clone project that provides deployment management, real-time updates, a
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -19,7 +18,7 @@ This project is a clone of Vercel, built to manage deployments, provide real-tim
 
 ## Architecture
 
-![Architecture Diagram](./architecture.png)
+![Architecture Diagram Example](https://camo.githubusercontent.com/cc06d9bab953db6a4ea85319c52585f45d415820f502e1b619905a08b68b4a0b/68747470733a2f2f692e696d6775722e636f6d2f7237515558715a2e706e67)
 
 ## Features
 
@@ -39,7 +38,6 @@ This project is a clone of Vercel, built to manage deployments, provide real-tim
 - **Cache**: Redis
 - **Storage**: AWS S3
 - **Deployment**: AWS ECS (Elastic Container Service)
-- **Database**: MongoDB (or any other database you're using)
 
 ## Setup
 
@@ -55,7 +53,7 @@ This project is a clone of Vercel, built to manage deployments, provide real-tim
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-github-username/vercel-clone.git
+   git clone https://github.com/kathan-shah1893/vercel-clone.git
    cd vercel-clone
    ```
 
@@ -69,9 +67,6 @@ This project is a clone of Vercel, built to manage deployments, provide real-tim
    AWS_ACCESS_KEY_ID=your-access-key-id
    AWS_SECRET_ACCESS_KEY=your-secret-access-key
    AWS_REGION=your-region
-   S3_BUCKET_NAME=your-s3-bucket-name
-   REDIS_URL=redis://localhost:6379
-   MONGODB_URI=your-mongodb-uri
    ```
 
 4. Start the development server:
@@ -117,6 +112,3 @@ Deploy the application to AWS ECS using the provided scripts and configurations.
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
-
-### Architecture Diagram
-![Architecture Diagram Example](https://camo.githubusercontent.com/cc06d9bab953db6a4ea85319c52585f45d415820f502e1b619905a08b68b4a0b/68747470733a2f2f692e696d6775722e636f6d2f7237515558715a2e706e67)
